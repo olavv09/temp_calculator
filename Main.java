@@ -13,7 +13,7 @@ public class Main {
                     System.out.print("Enter the temperature in C :");
                     float celcius = keyboard.nextFloat();
                     System.out.println("What temperature do you want to convert to:");
-                    System.out.println("1.Fahrenheit\n" + "2.Kelvin\n");
+                    System.out.println("1.Fahrenheit\n2.Kelvin\n");
                     int choice2 = keyboard.nextInt();
                     switch (choice2) {
                         case 1:
@@ -28,9 +28,9 @@ public class Main {
                     break;
                 case 2:
                     System.out.print("Enter the temperature in K :");
-                    Float kelvin = keyboard.nextFloat();
+                    float kelvin = keyboard.nextFloat();
                     System.out.println("What temperature do you want to convert to:");
-                    System.out.print("1.Celcius\n" + "2.Fahrenheit\n");
+                    System.out.print("1.Celcius\n2.Fahrenheit\n");
                     int choice3 = keyboard.nextInt();
                     switch (choice3) {
                         case 1:
@@ -48,7 +48,7 @@ public class Main {
                     System.out.print("Enter the temperature in F :");
                     float fahrenheit = keyboard.nextFloat();
                     System.out.print("What temperature do you want to convert to:");
-                    System.out.println("1.Celcius\n" + "2.Kelvin\n");
+                    System.out.println("1.Celcius\n2.Kelvin\n");
                     int choice4 = keyboard.nextInt();
                     switch (choice4) {
                         case 1:
